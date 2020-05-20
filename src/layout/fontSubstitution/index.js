@@ -61,7 +61,7 @@ const fontSubstitution = () => ({ string, runs }) => {
             end: index,
             attributes: {
               font: lastFont,
-              scale: lastFont ? fontSize / lastFont.unitsPerEm : 0,
+              //scale: lastFont ? fontSize / lastFont.unitsPerEm : 0,
             },
           });
         }
@@ -82,7 +82,7 @@ const fontSubstitution = () => ({ string, runs }) => {
       end: string.length,
       attributes: {
         font: lastFont,
-        scale: lastFont ? fontSize / lastFont.unitsPerEm : 0,
+        //scale: lastFont ? fontSize / lastFont.unitsPerEm : 0,
       },
     });
   }
